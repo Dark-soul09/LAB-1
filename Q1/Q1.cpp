@@ -9,7 +9,7 @@ int main()
     freopen("test_cases_Q1.txt","r",stdin);
     freopen("output_Q1.txt","w",stdout);
     int n; cin>>n; 
-    int a,first_mx=INT_MIN,second_mx=INT_MIN;
+    ll a,first_mx=LONG_LONG_MIN,second_mx=LONG_LONG_MIN;
     rep(i,0,n){
       cin>>a; 
       second_mx=min(first_mx,max(second_mx,a));
